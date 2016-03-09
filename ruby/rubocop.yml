@@ -11,7 +11,7 @@ Metrics/AbcSize:
   Enabled: false
 
 Metrics/LineLength:
-  Max: 100
+  Max: 120
   # To make it possible to copy or click on URIs in the code, we allow lines
   # contaning a URI to be longer than Max.
   AllowURI: true
@@ -22,4 +22,4 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Enabled: true
   CountComments: false
-  Max: 20
+  Max: 50
