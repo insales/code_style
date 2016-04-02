@@ -2,6 +2,7 @@ AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
   ExtraDetails: true
+  UseCache: false
 
 Style/Documentation:
   Description: 'Document classes and non-namespace modules.'
