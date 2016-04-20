@@ -27,3 +27,7 @@ Metrics/MethodLength:
   Enabled: true
   CountComments: false
   Max: 50
+
+Metrics/ClassLength
+  Enabled: true
+  Max: 200
