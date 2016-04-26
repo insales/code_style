@@ -30,3 +30,6 @@ Metrics/MethodLength:
 
 Style/ClassAndModuleChildren:
   Enabled: false
+  
+Style/CommentIndentation
+  Enabled: false
