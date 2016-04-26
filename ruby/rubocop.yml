@@ -27,3 +27,6 @@ Metrics/MethodLength:
   Enabled: true
   CountComments: false
   Max: 50
+
+Style/ClassAndModuleChildren:
+  Enabled: false
