@@ -33,3 +33,6 @@ Style/ClassAndModuleChildren:
   
 Style/StringLiterals:
   Enabled: false
+  
+Metrics/ModuleLength:
+  Max: 1337
