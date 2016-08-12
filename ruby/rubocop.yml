@@ -24,12 +24,19 @@ Metrics/LineLength:
     - https
 
 Metrics/MethodLength:
-  Enabled: true
+  Enabled: false
   CountComments: false
   Max: 50
+
+Metrics/ClassLength:
+  Enabled: false
 
 Style/ClassAndModuleChildren:
   Enabled: false
   
 Style/StringLiterals:
   Enabled: false
+  
+Lint/RescueException:
+  Enabled: false
+
