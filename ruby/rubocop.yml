@@ -39,4 +39,7 @@ Style/StringLiterals:
   
 Lint/RescueException:
   Enabled: false
+  
+Style/SingleLineBlockParams:
+  Enabled: false
 
