@@ -42,4 +42,7 @@ Lint/RescueException:
   
 Style/SingleLineBlockParams:
   Enabled: false
+  
+Style/Lambda:
+  Enabled: false
 
