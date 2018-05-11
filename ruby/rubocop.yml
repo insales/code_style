@@ -31,6 +31,15 @@ Metrics/MethodLength:
 Metrics/ClassLength:
   Enabled: false
 
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
 Style/ClassAndModuleChildren:
   Enabled: false
   
@@ -42,4 +51,3 @@ Lint/RescueException:
   
 Style/SingleLineBlockParams:
   Enabled: false
-
