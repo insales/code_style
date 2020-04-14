@@ -14,7 +14,7 @@ Style/AsciiComments:
 Metrics/AbcSize:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
   # To make it possible to copy or click on URIs in the code, we allow lines
   # contaning a URI to be longer than Max.
