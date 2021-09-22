@@ -40,14 +40,17 @@ Metrics/CyclomaticComplexity:
 Metrics/PerceivedComplexity:
   Enabled: false
 
+Naming/BlockParameterName:
+  MinNameLength: 3
+
 Style/ClassAndModuleChildren:
   Enabled: false
-  
+
 Style/StringLiterals:
   Enabled: false
-  
+
 Lint/RescueException:
   Enabled: false
-  
+
 Style/SingleLineBlockParams:
   Enabled: false
