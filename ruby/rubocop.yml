@@ -2,16 +2,17 @@ AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
   ExtraDetails: true
+  NewCops: enable
+  Exclude:
+    - db/schema.rb
+    - vendor/**/*
+    - node_modules/**/*
   UseCache: false
 
-Style/Documentation:
-  Description: 'Document classes and non-namespace modules.'
+Bundler/OrderedGems:
   Enabled: false
 
-Style/AsciiComments:
-  Enabled: false
-
-Metrics/AbcSize:
+Layout/EmptyLineAfterGuardClause:
   Enabled: false
 
 Layout/LineLength:
@@ -23,15 +24,21 @@ Layout/LineLength:
     - http
     - https
 
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Metrics/AbcSize:
+  Enabled: false
+
 Metrics/MethodLength:
   Enabled: false
   CountComments: false
   Max: 50
 
-Metrics/ClassLength:
+Metrics/BlockLength:
   Enabled: false
 
-Metrics/BlockLength:
+Metrics/ClassLength:
   Enabled: false
 
 Metrics/CyclomaticComplexity:
@@ -43,13 +50,34 @@ Metrics/PerceivedComplexity:
 Naming/BlockParameterName:
   MinNameLength: 3
 
+Style/Alias:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Documentation:
+  Description: 'Document classes and non-namespace modules.'
+  Enabled: false
+
+Style/DocumentDynamicEvalDefinition:
+  Enabled: false
+
 Style/ClassAndModuleChildren:
   Enabled: false
 
-Style/StringLiterals:
-  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  EnforcedStyle: always
+  Exclude:
+    - 'db/migrate/**/*.rb'
+    - 'bin/'
 
-Lint/RescueException:
+Style/GlobalVars:
+  AllowedVariables:
+    - $redis
+
+Style/StringLiterals:
   Enabled: false
 
 Style/SingleLineBlockParams:
