@@ -60,9 +60,6 @@ Style/Documentation:
   Description: 'Document classes and non-namespace modules.'
   Enabled: false
 
-Style/DocumentDynamicEvalDefinition:
-  Enabled: false
-
 Style/ClassAndModuleChildren:
   Enabled: false
 
