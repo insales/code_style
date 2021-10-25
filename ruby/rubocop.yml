@@ -5,6 +5,7 @@ AllCops:
   NewCops: enable
   Exclude:
     - db/schema.rb
+    - bin/
     - vendor/**/*
     - node_modules/**/*
   UseCache: false
