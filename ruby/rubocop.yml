@@ -28,6 +28,10 @@ Layout/LineLength:
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
+Lint/MissingSuper:
+  Exclude:
+    - 'app/services/**/*'
+
 Metrics/AbcSize:
   Enabled: false
 
