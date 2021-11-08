@@ -53,6 +53,8 @@ Metrics/PerceivedComplexity:
 
 Naming/BlockParameterName:
   MinNameLength: 3
+  Exclude:
+    - 'db/*.rb'
 
 Style/Alias:
   Enabled: false
