@@ -31,11 +31,6 @@ Layout/MultilineMethodCallIndentation:
 Metrics/AbcSize:
   Enabled: false
 
-Metrics/MethodLength:
-  Enabled: false
-  CountComments: false
-  Max: 50
-
 Metrics/BlockLength:
   Enabled: false
 
@@ -43,6 +38,14 @@ Metrics/ClassLength:
   Enabled: false
 
 Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+  CountComments: false
+  Max: 50
+
+Metrics/ModuleLength:
   Enabled: false
 
 Metrics/PerceivedComplexity:
