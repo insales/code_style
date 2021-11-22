@@ -80,6 +80,10 @@ Style/GlobalVars:
   AllowedVariables:
     - $redis
 
+Style/RegexpLiteral:
+  EnforcedStyle: mixed
+  AllowInnerSlashes: false
+
 Style/StringLiterals:
   Enabled: false
 
