@@ -42,3 +42,6 @@ RSpec/NestedGroups:
 
 RSpec/ImplicitBlockExpectation:
   Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  IgnoredMethods: [change]
