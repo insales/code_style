@@ -43,5 +43,10 @@ RSpec/NestedGroups:
 RSpec/ImplicitBlockExpectation:
   Enabled: false
 
+Rails/RakeEnvironment:
+  Exclude:
+    - lib/recipes/*.rake
+    - lib/capistrano/tasks/*.rake
+
 Lint/AmbiguousBlockAssociation:
   IgnoredMethods: [change]
