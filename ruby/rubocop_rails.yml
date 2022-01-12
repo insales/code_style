@@ -45,8 +45,8 @@ RSpec/ImplicitBlockExpectation:
 
 Rails/RakeEnvironment:
   Exclude:
-    - lib/recipes/*.rake
     - lib/capistrano/tasks/*.rake
+    - lib/recipes/*.rake
 
 Lint/AmbiguousBlockAssociation:
   IgnoredMethods: [change]
