@@ -27,6 +27,7 @@ RSpec/ContextWording:
     - без
     - если
     - и
+    - при
 
 RSpec/ExampleLength:
   Enabled: false
