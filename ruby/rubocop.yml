@@ -54,7 +54,7 @@ Metrics/PerceivedComplexity:
 Naming/BlockParameterName:
   MinNameLength: 3
   Exclude:
-    - 'db/*.rb'
+    - 'db/migrate/*.rb'
 
 Style/Alias:
   Enabled: false
