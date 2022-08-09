@@ -28,6 +28,11 @@ Layout/LineLength:
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
+Layout/HashAlignment:
+  EnforcedHashRocketStyle:
+    - key
+    - table
+
 Metrics/AbcSize:
   Enabled: false
 
