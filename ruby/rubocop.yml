@@ -92,3 +92,8 @@ Style/SingleLineBlockParams:
 
 Style/NumericPredicate:
   Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
