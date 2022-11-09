@@ -50,4 +50,4 @@ Rails/RakeEnvironment:
     - lib/recipes/*.rake
 
 Lint/AmbiguousBlockAssociation:
-  IgnoredMethods: [change]
+  AllowedMethods: [change]
