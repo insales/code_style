@@ -53,6 +53,11 @@ Metrics/PerceivedComplexity:
 
 Naming/BlockParameterName:
   MinNameLength: 3
+  AllowedNames:
+    - i
+    - id
+    - ip
+    - to
   Exclude:
     - 'db/migrate/*.rb'
 
