@@ -1,0 +1,33 @@
+require:
+  - rubocop-rspec
+
+RSpec/ContextWording:
+  Prefixes:
+    - when
+    - with
+    - without
+    - if
+    - unless
+    - for
+    - когда
+    - для
+    - с
+    - без
+    - если
+    - и
+    - при
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/ExpectInHook:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: false
+
+RSpec/ImplicitBlockExpectation:
+  Enabled: false

@@ -1,3 +1,11 @@
+require:
+  - rubocop-rails
+
+# появилось после вынесения правил rspec в отдельный файл, чтобы не проходить по всем проектам
+# если появятся рельсовые проекты без rspec, можно будет подумать, что делать. Но пока таких, кажется, нет :)
+inherit_from:
+  - ./rubocop_rspec.yml
+
 Rails:
   Enabled: true
 
@@ -7,47 +15,13 @@ Rails/ApplicationRecord:
 Rails/HasManyOrHasOneDependent:
   Enabled: false
 
-Rails/ReversibleMigration:
-  Enabled: false
-
-Rails/SkipsModelValidations:
-  Enabled: false
-
-RSpec/ContextWording:
-  Prefixes:
-    - when
-    - with
-    - without
-    - if
-    - unless
-    - for
-    - когда
-    - для
-    - с
-    - без
-    - если
-    - и
-    - при
-
-RSpec/ExampleLength:
-  Enabled: false
-
-RSpec/ExpectInHook:
-  Enabled: false
-
-RSpec/MultipleExpectations:
-  Enabled: false
-
-RSpec/NestedGroups:
-  Enabled: false
-
-RSpec/ImplicitBlockExpectation:
-  Enabled: false
-
 Rails/RakeEnvironment:
   Exclude:
     - lib/capistrano/tasks/*.rake
     - lib/recipes/*.rake
 
-Lint/AmbiguousBlockAssociation:
-  AllowedMethods: [change]
+Rails/ReversibleMigration:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: false
